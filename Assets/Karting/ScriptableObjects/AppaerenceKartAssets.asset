@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 179c46e7090ba3340a02ff364a40a623, type: 3}
+  m_Name: AppaerenceKartAssets
+  m_EditorClassIdentifier: 
+  kartApparence:
+    hat:
+    - name: None
+      hatTag: 0
+      prefabHat: {fileID: 0}
+    - name: Party
+      hatTag: 1
+      prefabHat: {fileID: 9055817469080827956, guid: 332a6a14085b74fdd9c8f81357a61185,
+        type: 3}
+    - name: Top
+      hatTag: 2
+      prefabHat: {fileID: 2394185961606616943, guid: 774a4248793f3461bb91a4fe8170cdd7,
+        type: 3}
+    - name: Wizard
+      hatTag: 3
+      prefabHat: {fileID: 2805368771174309307, guid: 942c2c1bb4e544cb09d3494e89bb8041,
+        type: 3}
+    color:
+    - name: Black
+      colorTag: 0
+      material: {fileID: 2100000, guid: dc263f8d5174d45c0a98e6489eca16c5, type: 2}
+    - name: Blue
+      colorTag: 1
+      material: {fileID: 2100000, guid: de7902ac5f1ca46b9894eae94bfe5e58, type: 2}
+    - name: Green
+      colorTag: 2
+      material: {fileID: 2100000, guid: 85a5f987437cc4794b97b153a23d7ccb, type: 2}
+    - name: Red
+      colorTag: 3
+      material: {fileID: 2100000, guid: 6487fdefd669d4dbc91709a177cd4b93, type: 2}
+    - name: White
+      colorTag: 4
+      material: {fileID: 2100000, guid: 80aca137a2109463fb6c86f09a521374, type: 2}
+    - name: MetalCooper
+      colorTag: 5
+      material: {fileID: 2100000, guid: e7c453d829e9a4662a456d2da16a7e42, type: 2}
+    - name: MetalSilver
+      colorTag: 6
+      material: {fileID: 2100000, guid: 346183a72a1454a878a57ebb8b961c51, type: 2}
+    - name: NeonBlue
+      colorTag: 7
+      material: {fileID: 2100000, guid: 720149e63952b457590122b90ee86b07, type: 2}
+    - name: NeonGlow
+      colorTag: 8
+      material: {fileID: 2100000, guid: c70bc0190174a41759ea517f8d94ace1, type: 2}
+    - name: NeonGreen
+      colorTag: 9
+      material: {fileID: 2100000, guid: 0030b1f081f074ea79e4c8398f97fc08, type: 2}
+    body:
+    - name: None
+      bodyTag: 0
+      prefabKart: {fileID: 0}
+    - name: Party
+      bodyTag: 1
+      prefabKart: {fileID: 0}
+    - name: Top
+      bodyTag: 2
+      prefabKart: {fileID: 0}
+    - name: Wizard
+      bodyTag: 3
+      prefabKart: {fileID: 0}
+    wheel:
+    - name: None
+      wheelTag: 0
+      prefabWheel: {fileID: 0}
+    - name: Party
+      wheelTag: 1
+      prefabWheel: {fileID: 0}
+    - name: Top
+      wheelTag: 2
+      prefabWheel: {fileID: 0}
+    - name: Wizard
+      wheelTag: 3
+      prefabWheel: {fileID: 0}
